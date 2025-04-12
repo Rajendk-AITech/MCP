@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+      "sqlite": {
+        "command": "uv",
+        "args": [
+          "--directory",
+          "Pathtoyourservers\\MCP_Servers\\sqlite",
+          "run",
+          "mcp-server-sqlite",
+          "--db-path",
+          "PathtoyourDb\\sqlite\\northwind.db"
+        ]
+      }
+    }
+  }
